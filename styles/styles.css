@@ -1,0 +1,189 @@
+* {
+
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+
+}
+
+:root {
+
+  font-size: 62.5%;
+
+
+}
+
+/* styles.css */
+body {
+  
+  font-family: "Open Sans", sans-serif;
+  
+ 
+}
+
+.header-container {
+
+  
+  margin-left: 20rem;
+  width: 80%;
+  
+  
+  
+}
+
+.home-header {
+
+  display: flex;
+  align-items: center;
+
+}
+
+
+header {
+  
+  display: flex;
+  /* background: #ADD8E6; */
+  background: #000721;
+  width: 100%;
+  height: 24rem;
+  color: #333;
+  padding: 2.0rem 0;
+  
+}
+
+.home-header img {
+
+  width: 20.6rem;
+  height: 24.0rem; 
+
+}
+
+header h1 {
+  
+  font-family: "Satisfy", cursive;
+  margin-top: 3.0rem;
+  margin-bottom: 3.0rem;
+  font-size: 6.4rem;
+  color: #ADD8E6;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  color: #ADD8E6;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 2.0rem;
+  color: #ADD8E6;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  color: #ADD8E6;
+  font-size: 2rem;
+  font-family: "Satisfy", cursive;
+}
+
+nav ul li a:hover{
+
+  transition: 500ms;
+  color: #05b5f0;
+
+}
+
+.hero, .featured-courses, .course {
+
+  font-family: "Open Sans", sans-serif;
+
+
+}
+
+.hero {
+  
+  padding: 5.0rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  background: #ADD8E6;
+  
+}
+
+.hero h2 {
+
+  margin-bottom: 0.5rem;
+
+
+}
+
+.btn {
+
+  margin-top: 2rem;
+
+}
+
+.featured-courses{
+
+  background:#ADD8E6;
+  width: auto;
+  height: 100vh;
+
+}
+
+
+.featured-courses h2 {
+
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+
+}
+
+.course-container {
+
+  display: flex;
+  flex-direction:row;
+  gap: 30rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  
+  
+
+}
+
+.course {
+  margin-bottom: 4.0rem;
+}
+
+.course img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #000721;
+  color: #fff;
+  padding: 1.0rem 2.0rem;
+  text-decoration: none;
+  border-radius: 5.0rem;
+}
+.btn:hover{
+
+  transition: 500ms;
+  background-color: #6276be;
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 2.0rem 0;
+  text-align: center;
+}
